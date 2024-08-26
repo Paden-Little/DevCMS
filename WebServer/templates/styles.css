@@ -1,0 +1,61 @@
+/* Gruvbox Colors */
+:root {
+    --bg-color: #282828;
+    --text-color: #ebdbb2;
+    --accent-color: #d65d0e;
+    --link-color: #fabd2f;
+    --hover-color: #b8bb26;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: var(--hover-color);
+}
+
+section {
+    padding: 2rem;
+}
+
+h1, h2 {
+    color: var(--accent-color);
+}
+
+footer {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
